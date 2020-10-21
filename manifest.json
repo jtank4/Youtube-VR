@@ -1,0 +1,31 @@
+{
+
+  "manifest_version": 2,
+  "name": "Youtube VR",
+  "version": "0.3.1",
+
+  "description": "Adds in browser, PC VR support to Youtube 360 videos.",
+
+  "icons": {
+    "48": "icons/youtubeVR-48.png",
+	"96": "icons/youtubeVR-96.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": {
+	  "32":"icons/youtubeVR-32.png"
+	},
+    "default_title": "Youtube VR",
+	"default_popup": "inject.html"
+  },
+  "web_accessible_resources": [
+    "/video-js.min.css",
+	"/video.min.js",
+	"/videojs-vr.css",
+	"/videojs-vr.min.js",
+	"/webVRify.js",
+	"smallest.mp4"
+  ]
+}

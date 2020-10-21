@@ -1,0 +1,12 @@
+{
+  "name": "youtube-vr",
+  "version": "0.3.0",
+  "description": "Allows you to view youtube 360 videos in PC VR headsets. The script here copies just the needed files from the dependencies into the root folder where they are easy to include in the add on zip file.",
+  "scripts": {
+    "postinstall": "node installScript.js"
+  },
+  "dependencies": {
+    "video.js": "7.7.4",
+    "videojs-vr": "1.7.2"
+  }
+}
