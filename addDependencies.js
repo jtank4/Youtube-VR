@@ -50,7 +50,7 @@ let canvas = document.createElement("video");
 canvas.id = "videojs-vr-player";
 let src = document.createElement("source");
 src.type = "video/mp4";
-src.src = browser.runtime.getURL("/smallest.mp4"); //Vr needs video in source to initialize right
+src.src = browser.runtime.getURL("/smallest.mp4"); //Vr needs video in source to initialize correctly
 canvas.appendChild(src);
 canvas.className = "video-js vjs-default-skin";
 canvas.style.width="100%"

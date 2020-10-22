@@ -1,2 +1,0 @@
-None of the code I have written for this addon is minified, however I use two NPM dependencies (4 files) which are minified and included in the uploaded version of the addon. You can find all things neccessary to obtain the full source code at https://github.com/jtank4/Youtube-VR
-See section "Cloning Repo and Developing" of the README.md
