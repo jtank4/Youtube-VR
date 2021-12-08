@@ -1,0 +1,9 @@
+None of the code I have written for this addon is minified, however I use two NPM dependencies (4 files) which are minified and included in the uploaded version of the addon. You can find all things neccessary to obtain the full source code at https://github.com/jtank4/Youtube-VR
+See section "Cloning Repo and Developing" of the README.md
+
+If you need to build the videojs-vr.min.js file which comes from the videojs-vr NPM dependency, you must:
+Clone https://github.com/videojs/videojs-vr
+Git reset to either this commit https://github.com/videojs/videojs-vr/commit/ba9e43f91946a4d467424d8c7f9400e9cbb6ef70 which is the version currently (Dec 2021) used by the plugin, or find out what version is used by checking package.json and looking at the version of videojs-vr, then look for the tag for that version in the videojs-vr repo and click on the most recent commit button.
+Discard all changes to be sure you are on the used version.
+Run "npm run build"
+The videojs-vr.min.js file will appear in the dist folder.

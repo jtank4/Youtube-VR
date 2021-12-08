@@ -7,6 +7,6 @@
   },
   "dependencies": {
     "video.js": "7.7.4",
-    "videojs-vr": "1.7.2"
+    "videojs-vr": "1.10.0"
   }
 }

@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Youtube VR",
-  "version": "0.3.2",
+  "version": "0.3.3",
 
   "description": "Adds in browser, PC VR support to Youtube 360 videos.",
 
